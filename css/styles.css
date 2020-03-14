@@ -61,15 +61,17 @@ h1{
 }
 
 .row-features{
-    margin: 150px 0;
+    /* margin: 150px 0; */
+    padding: 7% 15%;
+
 }
 
 .feature-icon{
-    margin-bottom: 25px;
-    color: #ef8172
+    color: #ef8172;
+    margin-bottom: 1rem;
 }
 
-:hover.feature-icon{
+.feature-icon:hover{
     color: #ff4c68;
 }
 
@@ -79,5 +81,6 @@ h1{
 }
 
 .feature-description{
-    color: #8f8f8f
+    color: #8f8f8f;
+    padding: 7%;
 }
